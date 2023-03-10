@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro');
+
+
+
+
+$common_btn: #0062e4;
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%) !important;
+}
+
+.carousel-indicators {
+    position: relative !important;
+}
+
+.carousel-indicators button {
+    width: 0.6rem !important;
+    height: 0.6rem !important;
+    border-radius: 100% !important;
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+}
+
+.carousel-indicators button.active {
+    width: 0.4rem !important;
+    margin-top: 3px;
+    height: 0.4rem !important;
+    border: rgba(0, 0, 0, 0.637) !important;
+    background-color: rgba(0, 0, 0, 0.637) !important;
+
+}
+
+.common_btn {
+    color: #0062e4;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    padding: 0;
+}
+
+.hr {
+
+    width: 4.6rem;
+    height: 0.1rem;
+    background-color: #0062e4;
+    margin-left: 5.1rem;
+    margin-top: 1.5rem;
+}
+
+.explore_btn {
+    background-color: $common_btn !important;
+    color: white !important;
+    font-size: small;
+}
+
+.search button {
+    background-color: $common_btn;
+}
+
+.nav_bar a {
+    font-size: small;
+    color: black;
+}
+
+#try_btn {
+    border: 3px solid $common_btn;
+    color: #0062e4;
+    border-radius: 0.3rem;
+}
+
+.landing_add {
+    margin-top: 5rem;
+}
+
+.companies_list li {
+    list-style: none;
+}
+
+#collaborate {
+    background-color: #f5f5f5;
+}
+
+.card_heading {
+    color: #382d8b;
+}
+
+.card_sliding .card {
+    margin: auto;
+}
+
+.card_container {
+    margin: auto;
+}
+
+.des {
+    margin-left: 17rem;
+}
+
+.course_card img {
+    height: 13rem;
+    object-fit: cover
+}
+
+.org_ditels img {
+    width: 20px;
+    height: 20px;
+}
+
+.org_ditels span {
+    font-size: 0.875rem;
+}
+
+.course_name {
+    color: #1f1f1f !important;
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+    font-weight: 600 !important;
+    text-align: left;
+    letter-spacing: 1px !important;
+    overflow: hidden !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    text-overflow: ellipsis !important;
+}
+
+.course_type {
+    // padding-top: 1px !important;
+    font-size: 0.875rem !important;
+}
+
+.more_course {
+    height: 5rem !important;
+    width: 20rem !important;
+    margin-left: 1rem;
+    border-radius: 5px !important;
+}
+
+.card_img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.more_course p {
+    font-size: 13px;
+}
+
+.cards_expo {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.mid_add_container {
+    background-color: #ebf3ff;
+    height: 31.5rem;
+    margin-top: 11rem !important;
+}
+
+.add_img {
+    position: relative;
+    margin-top: -5rem;
+    margin-left: 20rem;
+}
+
+.mid_add_des {
+    margin-left: 5rem;
+    margin-top: 7rem;
+}
+
+.mid_add_des h1 {
+    font-size: 2.75rem;
+}
+
+.mid_add_btn {
+    height: 3rem;
+    width: 10rem;
+    border-radius: 3px;
+    background-color: #0056d2 !important;
+}
+
+.community_card img {
+    margin-left: 2.3rem;
+}
+
+.business {
+    background-color: #f9f7ef;
+}
+
+.business_btn {
+    border-color: solid #0062e4 !important;
+    color: #0056d2 !important;
+    border-radius: 3px;
+    padding: 1rem;
+}
+
+.business_panters {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 2rem;
+}
+
+footer {
+    background-color: #f5f5f5 !important;
+}
+
+
+
+footer li {
+    list-style: none;
+    font-size: .875rem;
+    padding-top: 0.5rem;
+}
+
+@media(max-width:1445px) {
+    .des {
+        margin-left: 3rem;
+    }
+
+    .add_img {
+        margin-left: 3rem;
+    }
+
+    .other_add {
+        margin-left: rem !important;
+
+    }
+
+    .card_container {
+        width: 75rem !important;
+    }
+}
+
+
+@media (max-width:1024px) {
+
+    .search {
+        width: 10rem;
+    }
+
+    .companies_list {
+        flex-wrap: wrap;
+    }
+
+    // mid_add-section
+
+    .mid_add_container {
+        height: 58.5rem;
+    }
+
+    .add_img {
+        margin-left: 13rem;
+    }
+
+    .mid_add_des {
+        margin-left: -14rem;
+        margin-top: 33rem;
+    }
+
+    .w-75 {
+        width: 100% !important;
+    }
+
+    // community section
+    .des {
+        margin-left: 0;
+    }
+
+    .community_des p {
+        font-size: 2.25rem;
+    }
+
+    .cards_expo {
+        grid-template-columns: auto auto auto;
+    }
+
+    .more_course {
+        width: 19rem !important;
+    }
+
+    .ms-5 {
+        margin-left: 0rem !important;
+    }
+
+    .carousel-control-next {
+        justify-content: space-between !important;
+        padding-left: 7rem !important;
+
+    }
+    .carousel-control-prev {
+        justify-content: space-between !important;
+        padding-left: 4rem !important;
+
+    }
+}
